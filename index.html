@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -13,39 +9,36 @@
     <link rel="stylesheet" href="" />
   </head>
   <body>
-    <div id="container">
-      <nav id="navbar">
-        <ul class="topnav right">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
-        </ul>
-      </nav>
-      <section id="logo">
-        <img
-          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-          alt="google logo"
-        />
-      </section>
-      <section id="search-form">
-        <form id="search">
-          <input type="text" id="search_input" />
-          <button id="search_btn" name="search_btn">Google Search</button>
-          <button id="lucky" name="lucky">I'm Feeling Lucky</button>
-        </form>
-      </section>
+    <div class="container">
+      <div class="logo">
+        <img class="google-logo" src="http://i.kinja-img.com/gawker-media/image/upload/s--pEKSmwzm--/c_scale,fl_progressive,q_80,w_800/1414228815325188681.jpg"/>
+      </div>
+      <div class="searchform">
+        <input type="text" class="search"/>
+      </div>
+      <div class="buttons">
+        <button>Google Search</button>
+        <button>I;m Feeling Lucky</button>
+        <p>Google.com offered in: <a href="#">Hindi</a></p>
+      </div>
+      <div class="footer">
+
+        <span class="footer-left">
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">About</a>
+        </span>
+
+        <span class="footer-right">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </span>
+        
+      </div>
     </div>
   </body>
   <style>
-    #search-form {
-      display: flex;
-    }
-
-    #navbar {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
+    
   </style>
 </html>
